@@ -3,10 +3,23 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "description": "",
-  "scripts": {
-
+  "description": "A uni-app component library designed based on Ant Design.",
+  "author": {
+    "name": "cnguu",
+    "email": "gu642279596@gmail.com",
+    "url": "https://github.com/cnguu"
   },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/cnguu/ant-design-uni",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cnguu/ant-design-uni"
+  },
+  "bugs": {
+    "url": "https://github.com/cnguu/ant-design-uni/issues"
+  },
+  "keywords": ["uni-app", "component", "components", "library", "ant", "ant-design", "vue", "vue3", "ui", "vue-component", "framework", "frontend"],
+  "scripts": {},
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
     "eslint": "catalog:",
