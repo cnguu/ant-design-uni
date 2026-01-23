@@ -1,5 +1,5 @@
 {
-  "name": "ant-design-uni",
+  "name": "@cnguu/ant-design-uni",
   "type": "module",
   "version": "0.0.0",
   "private": true,
@@ -22,8 +22,14 @@
   "scripts": {},
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
+    "@dcloudio/types": "catalog:",
+    "@uni-helper/uni-types": "catalog:",
+    "@vue/shared": "catalog:",
+    "@vue/tsconfig": "catalog:",
     "eslint": "catalog:",
+    "eslint-plugin-format": "catalog:",
     "jiti": "catalog:",
+    "less": "catalog:",
     "rimraf": "catalog:",
     "typescript": "catalog:",
     "vite": "catalog:",
