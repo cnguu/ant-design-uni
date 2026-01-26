@@ -116,6 +116,8 @@ function onIm(event: any) {
   <button
     :class="buttonClass"
     :style="buttonStyle"
+    :hover-class="bem.m('hover')"
+    :disabled="disabled || loading"
     @click="onClick"
     @getphonenumber="onGetPhoneNumber"
     @getuserinfo="onGetUserinfo"

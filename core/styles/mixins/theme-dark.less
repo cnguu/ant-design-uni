@@ -1,0 +1,15 @@
+.theme-dark(@rules) {
+  @media (prefers-color-scheme: dark) {
+    page,
+    .a-portal {
+      @rules();
+    }
+  }
+
+  /* #ifdef WEB */
+  :root[data-a-theme='dark'] page,
+  :root[data-a-theme='dark'] .a-portal {
+    @rules();
+  }
+  /* #endif */
+}
