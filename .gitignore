@@ -26,3 +26,4 @@ coverage
 .hbuilderx
 unpackage/*
 !unpackage/res/
+.env.development

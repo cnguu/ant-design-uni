@@ -19,7 +19,9 @@
     "url": "https://github.com/cnguu/ant-design-uni/issues"
   },
   "keywords": ["uni-app", "component", "components", "library", "ant", "ant-design", "vue", "vue3", "ui", "vue-component", "framework", "frontend"],
-  "scripts": {},
+  "scripts": {
+    "play": "pnpm -F ant-design-uni-play dev"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
     "@dcloudio/types": "catalog:",
