@@ -1,4 +1,4 @@
-import type { ClassValue, StyleValue } from '../utils'
+import type { ClassValue, StyleValue } from '../util'
 
 export interface CommonProps {
   class?: ClassValue

@@ -4,4 +4,4 @@ export * from './constant/index.ts'
 
 export * from './type/index.ts'
 
-export * from './utils/index.ts'
+export * from './util/index.ts'

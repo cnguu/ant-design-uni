@@ -17,7 +17,7 @@ import type {
 import { computed } from 'vue'
 
 import { PROP_DEFAULTS } from '../../constant'
-import { BemHelper, clsx, stylex } from '../../utils'
+import { BemHelper, clsx, stylex } from '../../util'
 
 defineOptions({
   options: {
