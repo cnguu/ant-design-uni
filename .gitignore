@@ -23,6 +23,7 @@ coverage
 *.sw?
 *.tsbuildinfo
 .eslintcache
+
 .hbuilderx
 unpackage/*
 !unpackage/res/

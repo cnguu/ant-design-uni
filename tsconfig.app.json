@@ -1,0 +1,45 @@
+{
+    "extends": "@vue/tsconfig/tsconfig.dom.json",
+    "include": [
+        "builder/**/*.ts",
+        "composable/**/*.ts",
+        "constant/**/*.ts",
+        "dts/**/*.d.ts",
+        "enum/**/*.ts",
+        "hook/**/*.ts",
+        "page/**/*.vue",
+        "page/**/*.ts",
+        "page-a/**/*.vue",
+        "page-a/**/*.ts",
+        "store/**/*.ts",
+        "type/**/*.ts",
+        "ui/**/*.ts",
+        "ui/**/*.vue",
+        "util/**/*.ts",
+        "App.vue",
+        "main.ts",
+        "Root.vue"
+    ],
+    "exclude": ["**/uni_modules/**", "**/unpackage/**", "**/dist/**", "**/node_modules/**"],
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "Bundler",
+        "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+        "lib": ["ESNext", "DOM", "DOM.Iterable"],
+        "isolatedModules": true,
+        "paths": {
+            "@/*": ["./*"]
+        },
+        "types": [
+            "@types/wechat-miniprogram",
+            "@dcloudio/types",
+            "@uni-helper/uni-types",
+            "@uni-helper/vite-plugin-uni-pages",
+            "@uni-ku/bundle-optimizer/client"
+        ]
+    },
+    "vueCompilerOptions": {
+        "plugins": ["@uni-helper/uni-types/volar-plugin"]
+    }
+}

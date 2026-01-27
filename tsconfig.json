@@ -1,28 +1,11 @@
 {
-  "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "compilerOptions": {
-    "target": "ESNext",
-    "lib": ["ESNext", "DOM"],
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "resolveJsonModule": true,
-    "types": [
-      "node",
-      "@dcloudio/types",
-      "@uni-helper/uni-types"
-    ],
-    "strict": true,
-    "strictNullChecks": true,
-    "esModuleInterop": true,
-    "skipDefaultLibCheck": true,
-    "skipLibCheck": true,
-    "vueCompilerOptions": {
-      "plugins": ["@uni-helper/uni-types/volar-plugin"]
-    }
-  },
-  "exclude": [
-    "**/node_modules/**",
-    "**/uni_modules/**",
-    "**/dist/**"
-  ]
+    "files": [],
+    "references": [
+        {
+            "path": "./tsconfig.node.json"
+        },
+        {
+            "path": "./tsconfig.app.json"
+        }
+    ]
 }
