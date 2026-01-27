@@ -20,7 +20,7 @@
   },
   "keywords": ["uni-app", "component", "components", "library", "ant", "ant-design", "vue", "vue3", "ui", "vue-component", "framework", "frontend"],
   "scripts": {
-    "play": "pnpm -F ant-design-uni-play dev"
+    "play": "cd ./play && pnpm dev"
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
