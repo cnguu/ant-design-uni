@@ -65,9 +65,11 @@
     "@dcloudio/uni-mp-xhs": "catalog:",
     "@dcloudio/uni-quickapp-webview": "catalog:",
     "pinia": "catalog:",
+    "vue": "catalog:",
     "vue-router": "catalog:"
   },
   "devDependencies": {
+    "@dcloudio/types": "catalog:",
     "@dcloudio/uni-automator": "catalog:",
     "@dcloudio/uni-cli-shared": "catalog:",
     "@dcloudio/uni-stacktracey": "catalog:",
@@ -76,6 +78,7 @@
     "@types/wechat-miniprogram": "catalog:",
     "@uni-helper/plugin-uni": "catalog:",
     "@uni-helper/uni-env": "catalog:",
+    "@uni-helper/uni-types": "catalog:",
     "@uni-helper/unocss-preset-uni": "catalog:",
     "@uni-helper/vite-plugin-uni-components": "catalog:",
     "@uni-helper/vite-plugin-uni-manifest": "catalog:",
@@ -88,10 +91,12 @@
     "chalk": "catalog:",
     "consola": "catalog:",
     "eslint": "catalog:",
+    "less": "catalog:",
     "ora": "catalog:",
     "unocss": "catalog:",
     "unocss-applet": "catalog:",
     "unplugin-auto-import": "catalog:",
+    "vite": "catalog:",
     "vite-plugin-compression2": "catalog:"
   }
 }

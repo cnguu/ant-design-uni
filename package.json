@@ -24,18 +24,11 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
-    "@dcloudio/types": "catalog:",
-    "@uni-helper/uni-types": "catalog:",
-    "@vue/shared": "catalog:",
     "@vue/tsconfig": "catalog:",
     "eslint": "catalog:",
     "eslint-plugin-format": "catalog:",
     "jiti": "catalog:",
-    "less": "catalog:",
     "rimraf": "catalog:",
-    "typescript": "catalog:",
-    "vite": "catalog:",
-    "vitest": "catalog:",
-    "vue": "catalog:"
+    "typescript": "catalog:"
   }
 }
